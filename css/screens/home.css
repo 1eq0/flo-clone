@@ -75,28 +75,3 @@
   position: absolute;
   right: 20px;
 }
-
-.content__column {
-  padding: 0px 20px;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 30px;
-}
-.content-list {
-  overflow: hidden;
-  display: flex;
-  align-content: center;
-}
-.content__column .content-list img {
-  height: 200px;
-  width: 200px;
-  border-radius: 10px;
-  margin: 10px 0px;
-  margin-right: 10px;
-}
-.content__column .content-list .contents {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}

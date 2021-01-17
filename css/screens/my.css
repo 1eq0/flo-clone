@@ -1,0 +1,51 @@
+.my-nav .nav__list .nav__btn .nav__link .fa-ellipsis-h {
+  color: white;
+  opacity: 1;
+}
+.my__main-head {
+  padding-top: 120px;
+}
+.my__main-head .content-title span {
+  font-size: x-large;
+  font-weight: 500;
+}
+.my__main-head .contents div {
+  position: relative;
+}
+.my__main-head .content-list .contents span {
+  color: white;
+  position: absolute;
+}
+.my__main-head .contents:first-child div {
+  background-color: #430f97;
+}
+.my__main-head .contents:nth-child(2) div {
+  background-color: #ce5df7;
+}
+.my__main-head .contents:nth-child(3) div {
+  background-color: #d7042d;
+}
+.my__main-head .contents:nth-child(4) div {
+  background-color: #430f97;
+}
+.my__main-head .contents:last-child div {
+  background-color: #ce5df7;
+}
+.like-list {
+  padding: 0px 25px;
+}
+.like-list__title {
+  margin-bottom: 30px;
+}
+.like-list__title span {
+  font-weight: 500;
+  font-size: x-large;
+}
+.like-list .song__info {
+  width: 300px;
+}
+.like-list .song-list__song img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
