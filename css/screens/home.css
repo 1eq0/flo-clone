@@ -66,12 +66,42 @@
   height: 160px;
   width: 160px;
   z-index: 3;
+  animation: FadeDownRE 8s 1.3s infinite;
 }
 .home-main__column .recommendation-img:nth-child(1) {
   position: absolute;
   left: 20px;
+  animation: FadeLeftRE 8s 1.3s infinite;
 }
 .home-main__column .recommendation-img:nth-child(3) {
   position: absolute;
   right: 20px;
+  animation: FadeRightRE 8s 1.3s infinite;
+}
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  z-index: 5;
+  background-color: white;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 132px;
+  animation: hideSplashScreen 0.4s ease-in-out forwards;
+  animation-delay: 1s;
+}
+#splash-screen img {
+  animation: Beat 0.4s;
 }

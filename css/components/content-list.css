@@ -1,8 +1,11 @@
+.content {
+  width: 100%;
+}
 .content__column {
   padding: 0px 20px;
   display: flex;
   flex-direction: column;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .content-list {
   overflow: hidden;
@@ -28,4 +31,7 @@
   margin: 10px 0px;
   border-radius: 10px;
   margin-right: 10px;
+}
+.content__column img:hover {
+  animation: borderLine 0.2s forwards;
 }

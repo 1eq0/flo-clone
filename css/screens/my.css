@@ -3,7 +3,7 @@
   opacity: 1;
 }
 .my__main-head {
-  padding-top: 120px;
+  padding-top: 110px;
 }
 .my__main-head .content-title span {
   font-size: x-large;
@@ -11,10 +11,6 @@
 }
 .my__main-head .contents div {
   position: relative;
-}
-.my__main-head .content-list .contents span {
-  color: white;
-  position: absolute;
 }
 .my__main-head .contents:first-child div {
   background-color: #430f97;
@@ -33,9 +29,10 @@
 }
 .like-list {
   padding: 0px 25px;
+  height: 55%;
 }
 .like-list__title {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .like-list__title span {
   font-weight: 500;
@@ -48,4 +45,7 @@
   width: 50px;
   height: 50px;
   border-radius: 10px;
+}
+.song-list__song:hover {
+  animation: borderLine 0.3s forwards;
 }

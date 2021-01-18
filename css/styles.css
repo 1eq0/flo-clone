@@ -8,6 +8,8 @@
 @import "components/content-list.css";
 @import "components/song-list.css";
 @import "components/play-header.css";
+@import "components/animation.css";
+@import "components/no-mobile.css";
 /*Screens*/
 @import "screens/home.css";
 @import "screens/look.css";

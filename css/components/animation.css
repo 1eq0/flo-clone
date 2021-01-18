@@ -1,0 +1,103 @@
+@keyframes FadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes FadeLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@keyframes FadeRight {
+  from {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@keyframes borderLine {
+  from {
+    transform: none;
+  }
+  to {
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px gray;
+  }
+}
+@keyframes FadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes FadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes FadeLeftRE {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  20% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@keyframes FadeRightRE {
+  0% {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+  20% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@keyframes FadeDownRE {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes Beat {
+  0% {
+    transform: none;
+    opacity: 0.3;
+  }
+  25% {
+    transform: scale(1.1);
+    opacity: 0.3;
+  }
+  50% {
+    transform: none;
+    opacity: 0.3;
+  }
+  75% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+}
