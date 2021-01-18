@@ -1,0 +1,15 @@
+.play-header {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+.play-header__icons {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 50px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.play-header__icons a:hover {
+  cursor: pointer;
+}
