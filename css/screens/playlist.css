@@ -1,5 +1,6 @@
 .playlist-status {
   color: white;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 .playlist {
   height: 86.2%;
